@@ -12,6 +12,34 @@ TODO:
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <!-- Lato Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <style>
+        h1 {
+            font-family: 'Lato', sans-serif;
+            text-align: center;
+        }
+
+        h2 {
+            font-family: 'Lato', sans-serif;
+        }
+
+        h3 {
+            font-family: 'Lato', sans-serif;
+            color: grey;
+            text-align: center;
+        }
+
+        p {
+            font-family: 'Lato', sans-serif;
+            font-size: 14px;
+        }
+
+        img {
+            margin-bottom: 10px;
+        }
+    </style>
+
 </head>
 <body>
 
@@ -22,51 +50,59 @@ TODO:
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
 
-<div class="container-fluid">
-
-    <!-- Profile picture, name, designation -->
-    <div class="container-fluid">
-        <div><img src="face.jpg" class="img-fluid" alt="Profile"></div>
-        <div>
-            <h1>Ashish Sharma</h1>
-            <h3>CS Student</h3>
+<!-- Profile and designation -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6">
+            <img src="face.jpg" class="img-fluid" alt="Profile">
         </div>
-        <div>
-            <img src="designation.jpg" class="img-fluid" alt="Designation">
-        </div>
-        <div>
-            <h2>Featured Work </h2>
-        </div>
-    </div>
-
-    <!-- First two apps -->
-    <div class="container-fluid">
-        <div>
-            <img src="calc.jpg" class="img-fluid" alt="Calc App">
-            <h3>Infix expression solver</h3>
-            <p><a href="https://github.com/AsharGit/infixParser">Link to project</a></p>
-        </div>
-        <div>
-            <img src="bball.jpg" class="img-fluid" alt="Baseball App">
-            <h3>Baseball score tracker</h3>
-            <p><a href="https://github.com/AsharGit/UmpireBuddy">Link to project</a></p>
-        </div>
-    </div>
-
-    <!-- Last two apps -->
-    <div class="container-fluid">
-        <div>
-            <img src="planner.jpg" class="img-fluid" alt="Planner App">
-            <h3>Day planner</h3>
-            <p><a href="https://github.com/AsharGit/PlanA">Link to project</a></p>
-        </div>
-        <div>
-            <img src="morse.jpg" class="img-fluid" alt="Morse Code App">
-            <h3>Morse Code solver</h3>
-            <p><a href="https://github.com/AsharGit/morseCode">Link to project</a></p>
+        <div class="col-lg-6">
+            <h1>ASHISH SHARMA</h1>
+            <h3>CS STUDENT</h3>
         </div>
     </div>
 </div>
+
+<!-- Banner -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg">
+            <img src="designation.jpg" class="img-fluid" alt="Designation">
+            <h2>Featured Work</h2>
+        </div>
+    </div>
+</div>
+
+<!-- Apps and links -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-3">
+            <img src="calc.jpg" class="img-fluid" alt="Calc App">
+            <h3>INFIX PARSER</h3>
+            <p><a href="https://github.com/AsharGit/infixParser">https://github.com/AsharGit/infixParser</a></p>
+        </div>
+
+        <div class="col-lg-3">
+            <img src="bball.jpg" class="img-fluid" alt="Baseball App">
+            <h3>UMPIRE BUDDY</h3>
+            <p><a href="https://github.com/AsharGit/UmpireBuddy">https://github.com/AsharGit/UmpireBuddy</a></p>
+        </div>
+
+        <div class="col-lg-3">
+            <img src="planner.jpg" class="img-fluid" alt="Planner App">
+            <h3>PLANA</h3>
+            <p><a href="https://github.com/AsharGit/PlanA">https://github.com/AsharGit/PlanA</a></p>
+        </div>
+
+        <div class="col-lg-3">
+            <img src="morse.jpg" class="img-fluid" alt="Morse Code App">
+            <h3>MORSE CODER</h3>
+            <p><a href="https://github.com/AsharGit/morseCode">https://github.com/AsharGit/morseCode</a></p>
+        </div>
+
+    </div>
+</div>
+
 
 </body>
 </html>
